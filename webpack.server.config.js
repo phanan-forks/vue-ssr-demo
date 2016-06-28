@@ -4,7 +4,7 @@ const webpackConfig = require('./webpack.client.config')
 
 module.exports = merge(webpackConfig, {
   target: 'node',
-  entry: './app/server-entry.js',
+  entry: './src/server-entry.js',
   output: {
     filename: 'server-bundle.js',
     libraryTarget: 'commonjs2'
