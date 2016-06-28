@@ -1,3 +1,5 @@
+'use strict'
+
 process.env.VUE_ENV = 'server'
 
 const fs = require('fs')
