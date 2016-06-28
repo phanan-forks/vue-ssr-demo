@@ -1,0 +1,24 @@
+{
+  "name": "vue-ssr-demo",
+  "author": "Evan You",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server",
+    "build": "webpack --config webpack.client.config.js && webpack --config webpack.server.config.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-syntax-jsx": "^6.8.0",
+    "babel-plugin-transform-vue-jsx": "^1.0.1",
+    "webpack": "^2.1.0-beta.14",
+    "webpack-merge": "^0.14.0"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "qs": "^6.2.0",
+    "vue": "^2.0.0-alpha.8",
+    "vue-server-renderer": "^2.0.0-alpha.8",
+    "vuex": "^0.8.2"
+  }
+}
